@@ -13,7 +13,7 @@ public class BinarySearch {
 		int x = sc.nextInt();
 		
 		do{
-			mid = (high+low)/2;
+			mid = low + (high-low)/2;
 			
 			if (array[mid] == x){
 				System.out.println(x+" is at "+(mid+1));
